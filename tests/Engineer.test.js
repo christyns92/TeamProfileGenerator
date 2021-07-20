@@ -1,28 +1,28 @@
 const Engineer = require("../lib/Engineer");
-//instantiate -a way to create an object using functions
+
 test("Can instantiate Employee instance", () => {
     const engineer = new Engineer();
     expect(typeof(engineer)).toBe("object");
 });
-// // test if can set name via constructor
+// // test if name is set
 test("Can set name via constructor arguments", () => {
     const name = "Jen";
     const engineer = new Engineer(name);
     expect(engineer.name).toBe(name);
 });
-// test if can set id via constructor
+// test if ID is set
 test("Can set id via constructor argument", () => {
     const ID = 1;
     const engineer = new Engineer("Jen", ID);
     expect(engineer.ID).toBe(ID);
 });
-// test if can set email via constructor
+// test if email is set
 test("Can set email via constructor argument", () => {
     const email = "Jen@test.com";
     const engineer = new Engineer("Bob", 2, email);
     expect(engineer.email).toBe(email);
 });
-//test to see if getName() returns name test value
+//test to see if getName() returns name 
 test("Can get name via getName()", () => {
     const name = "Jen";
     const engineer = new Engineer(name);
