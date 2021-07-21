@@ -1,6 +1,6 @@
 const Manager = require('../lib/Manager');
 
-//instantiate -a way to create an object using functions
+
 test("Can instantiate Employee instance", () => {
     const manager = new Manager();
     expect(typeof(manager)).toBe("object");
