@@ -75,3 +75,7 @@ This homework is graded based on the following criteria:
 * Repository contains multiple descriptive commit messages.
 
 * Repository contains a high-quality readme with description and a link to a walkthrough video.
+
+## Contributors
+Pair programming with Celia Pennington
+https://github.com/celiajpennington
